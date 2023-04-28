@@ -13,7 +13,7 @@ export default{
 <template>
     <div class="max-width padding-web">
     <div class="year_img">
-        <video  @ended="show = !show" muted playsinline autoplay src="/img/papel3.mp4"></video>
+        <video  @ended="show = !show" muted playsinline autoplay src="/img/papel.mp4"></video>
     </div>
     <div class="year_position" :class="{active: show}">
         <div class="year_position_a">
