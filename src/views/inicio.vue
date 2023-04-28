@@ -23,15 +23,15 @@
             ><img class="meta_door" src="/img/futureNeon.png" alt=""
           /></router-link>
           <router-link :to="{ name: 'instalaciones' }" class="pc"
-            ><img class="install_door" src="/img/puerta_origin.png"  alt=""
+            ><img class="install_door" src="/img/originNeon.png"  alt=""
           /></router-link>
 
           <a href="https://rgbshop38191613162016135.com/" target = "_blank" class="pc">
-              <img class="rgb_door" src="/img/puerta_rgb.png" alt="">
+              <img class="rgb_door" src="/img/rgbNeon.png" alt="">
           </a>
 
           <router-link :to="{ name: 'meta' }" class="pc"
-            ><img class="meta_door" src="/img/puerta_future.png" alt=""
+            ><img class="meta_door" src="/img/futureNeon.png" alt=""
           /></router-link>
         </div>
       </div>
@@ -164,7 +164,7 @@
     transform: translateX(0);
     }
     100%{
-      transform: translateX(calc(-150px * 3));
+      transform: translateX(calc(-200px * 3));
     }
   }
   .pc{
